@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Recipe</title> 
+    <!-- Internal CSS used to apply the same style rules to multiple elements in a HTML page. Next, class selector is used to 
+    select elements with a specific class attribute. flex is used to layout a flexbox. padding is used to provide space between the 
+    container's content and its border. -->
+    <style>   
+        .container {
+            display:flex;
+            align-items: center;
+            max-width: 1050px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+        } 
+        
+        .image{
+            flex:1;
+        }
+        .recipe{
+            flex: 2;
+            padding: 10px;
+        }
+        .h2 {
+            text-align: left; 
+        }
+    </style>  
+</head>
+<body style="background-color: rgb(219, 207, 191);">
+<!-- Inline CSS used to colour the background. -->
+    <div class="container">
+      <div class="image">
+<!-- Div element used as a container for class attributes -->
+      <img src="Image.jpg" alt="brownies" width="500px" height="600px">
+<!-- img element used to display the brownie image on the webpage. src attribute specifies the path to image file. alt is used to provide
+     alternative text for the image. width and height attributes to specify width and height. -->
+      </div> <!--Class image close-->
+     <div class="recipe">
+        <h1 style="color: rgb(211, 155, 87);"> The Ultimate Fudgy Brownie Recipe </h1>
+<!-- Inline CSS. <h1> used for recipe name and <p> used for description as required. -->
+        <p style="text-align:center; color: rgb(197, 154, 101);">A classic recipe for chewy, chocolatey, and fudgy brownies.</p>
+        <p> 
+<!-- table tag for creating a table with cellspacing attribute to widen up the cells. -->           
+        <table cellspacing="10">
+             <tr>
+             <td>SERVINGS: 9   |</td>
+             <td>PREP TIME: 15 MINS   |</td>
+             <td>COOKING TIME: 25 MINS</td>
+             </tr>  
+        </table>
+        </p>     
+<!-- h2 tag and unordered list for ingredients as required.-->  
+        <h2 style="color: rgb(197, 154, 101) ;"> Ingredients: </h2>
+        <ul>
+            <li>Chocolate 220g</li>
+            <li>Butter 3/4 cup</li>
+            <li>Sugar 1 1/4 cups</li>
+            <li>Eggs 2</li>
+            <li>Vanilla 2 teaspoons</li>
+            <li>All-purpose flour 3/4 cup</li>
+            <li>Cocoa powder 1/4 cup</li>
+            <li>Salt to taste</li>
+        </ul>
+<!-- h2 tag and ordered list for method to cook as required. -->
+        <h2 style="color: rgb(197, 154, 101) ;"> Method:</h2>
+        <ol>
+            <li>Preheat the oven to 180°C.</li>
+            <li>Chop the chocolate into chunks. Melt half, save half.</li>
+            <li>Combine the melted butter, sugar, eggs and vanilla. Beat for 1-2 minutes until the blend is fluffy and light-colored.</li>
+            <li>Whisk the melted chocolate into the blend.</li>
+            <li>Strain the flour, cocoa powder, and salt into the bowl. Fold the ingredients together, being careful not to overmix.</li>
+            <li>Fold in the chocolate chunks saved earlier, then transfer the batter into the parchment paper-lined dish.</li>
+            <li>Bake for 20-25 minutes. Then, cool completely.</li>
+            <li>Slice and Serve.</li>
+        </ol>
+     </div> <!--Class Recipe-->
+    </div> <!--Class Container-->    
+</body>
+</html>
+
