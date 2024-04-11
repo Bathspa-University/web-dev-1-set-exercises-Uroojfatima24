@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Quick Reference Guide</title> <!-- Sets the title of the HTML document, which appears in the browser tab. -->
+    <link rel="stylesheet" href="HTML and CSS guide.css"> <!-- Links an external stylesheet to the HTML document for styling purposes. -->
+</head>
+<body> <!-- This tag represents the main content of the HTML document. -->
+    <header> <!--  Defines a header section at the top of the webpage. -->
+        <h1>HTML & CSS Quick Reference Guide</h1> <!-- Represents the main heading of the document with the text "HTML & CSS Quick Reference Guide". -->
+        <p>A handy reference for common HTML tags and CSS properties</p> <!-- Represents a paragraph of text providing a brief description of the document. -->
+    </header>
+    <section> <!-- Defines a section of content within the HTML document. -->
+        <h2>HTML Tags</h2> <!-- Represents a subheading within a section with the text "HTML Tags". -->
+        <ol> <!-- Defines an ordered list to contain a list of HTML tags.  -->
+            <li> <!-- Represents each item in the list. -->
+                <h3><code>&lt;div&gt;:</code></h3> Defines a division or a section in an HTML document. <!-- Code tag pecifies text that should be displayed as code. -->
+                <pre><code>&lt;div class="container"&gt; <!-- pre tag defines preformatted text, which preserves both spaces and line breaks. -->
+    &lt;p&gt;This is a paragraph inside a div&lt;/p&gt; <!-- These codes are used in HTML to display angle brackets < and > as text without them being treated as part of HTML tags. So, instead of writing <, you write &lt;, and instead of >, you write &gt;. -->
+&lt;/div&gt;</code></pre>
+            </li>
+            <li>
+                <h3><code>&lt;p&gt;:</code></h3> Defines a paragraph.
+                <pre><code>&lt;p&gt;This is a paragraph&lt;/p&gt;</code></pre>
+            </li>
+            <li>
+                <h3><code>&lt;ul&gt;:</code></h3> Defines an unordered list.
+                <pre><code>&lt;ul&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+            </li>
+            <li>
+                <h3><code>&lt;ol&gt;:</code></h3> Defines an ordered list.
+                <pre><code>&lt;ol&gt;
+    &lt;li&gt;First item&lt;/li&gt;
+    &lt;li&gt;Second item&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+            </li>
+            <li>
+                <h3><code>&lt;img&gt;:</code></h3> Defines an image.
+                <pre><code>&lt;img src="image.jpg" alt="Description"&gt;</code></pre>
+            </li>
+            <li>
+                <h3><code>&lt;a&gt;:</code></h3> Defines a hyperlink.
+                <pre><code>&lt;a href="https://example.com"&gt;Link&lt;/a&gt;</code></pre>
+            </li>
+            <li>
+                <h3><code>&lt;form&gt;:</code></h3> Defines an HTML form for user input.
+                <pre><code>&lt;form action="/submit" method="post"&gt;
+    &lt;label for="username"&gt;Username:&lt;/label&gt;
+    &lt;input type="text" id="username" name="username"&gt;
+&lt;/form&gt;</code></pre>
+            </li>
+            <li>
+                <h3><code>&lt;table&gt;:</code></h3> Defines a table.
+                <pre><code>&lt;table&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Row 1, Column 1&lt;/td&gt;
+        &lt;td&gt;Row 1, Column 2&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+            </li>
+            <li>
+                <h3><code>&lt;header&gt;:</code></h3> Defines a header for a document or section.
+                <pre><code>&lt;header&gt;
+    &lt;h1&gt;Page Title&lt;/h1&gt;
+&lt;/header&gt;</code></pre>
+            </li>
+            <li>
+                <h3><code>&lt;footer&gt;:</code></h3> Defines a footer for a document or section.
+                <pre><code>&lt;footer&gt;
+    &lt;p&gt;Copyright &copy; 2024 Company Name&lt;/p&gt;
+&lt;/footer&gt;</code></pre>
+            </li>
+        </ol>
+    </section>
+    <section>
+        <h2>CSS Properties</h2>
+        <ol>
+            <li>
+                <h4><code>color:</code></h4> Sets the color of text.
+                <pre><code>body {
+    color: #333;
+}</code></pre>
+            </li>
+            <li>
+                <h4><code>font-family: </code></h4> Sets the font family for text.
+                <pre><code>p {
+    font-family: Arial, sans-serif;
+}</code></pre>
+            </li>
+            <li>
+                <h4><code>background-color: </code></h4> Sets the background color of an element.
+                <pre><code>header {
+    background-color: #f2f2f2;
+}</code></pre>
+            </li>
+            <li>
+                <h4><code>padding: </code></h4> Sets the padding space inside an element.
+                <pre><code>.container {
+    padding: 20px;
+}</code></pre>
+            </li>
+            <li>
+                <h4><code>margin: </code></h4> Sets the margin space outside an element.
+                <pre><code>img {
+    margin: 10px;
+}</code></pre>
+            </li>
+            <li>
+                <h4><code>border: </code></h4> Sets the border properties of an element.
+                <pre><code>table {
+    border: 1px solid #ddd;
+}</code></pre>
+            </li>
+            <li>
+                <h4><code>text-align: </code></h4> Sets the horizontal alignment of text.
+                <pre><code>footer {
+    text-align: center;
+}</code></pre>
+            </li>
+            <li>
+                <h4><code>display: </code></h4> Specifies the type of rendering box used for an element.
+                <pre><code>ul {
+    display: flex;
+}</code></pre>
+            </li>
+        </ol>
+    </section>
+</body>
+</html>
+
