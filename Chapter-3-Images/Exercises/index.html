@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style> /*-- Defines the CSS styles for the webpage. */
+        .image {
+            width: 100%;
+            max-width: 300px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        .image:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery"> <!-- Defines a container for the image gallery. -->
+        <figure> <!-- Represents self-contained content, typically with an associated caption. -->
+            <!-- img: Inserts an image into the webpage. src: Specifies the image file's path or URL. alt: Provides alternative text for the image.
+                title: Displays a tooltip when the mouse hovers over the image. width and height: Sets the dimensions of the image. class="image": Assigns the CSS class "image" to the image.
+                style: Adds inline CSS styles to the image. -->
+            <img src="image1.jpg" alt="Nature" title="Solar Eclipse" width="300" height="500" class="image" style="filter: grayscale(100%);">
+            <!-- <figcaption>: Adds a caption to the image and contains information about the image source and license.
+                    <a>: Creates a hyperlink to the image source. href: Specifies the URL of the link. -->
+            <figcaption>Image by Mathilde Langevin on <a href="https://unsplash.com/@mathildelangevin">Unsplash</a> (Unsplash License)</figcaption>
+        </figure>
+        
+        <figure>
+            <img src="image2.jpg" alt="Nature" title="Beautiful forest" width="300" height="500" class="image" style="filter: sepia(50%);">
+            <figcaption>Image by Ryan Klaus on <a href="https://unsplash.com/@ryankphoto">Unsplash</a> (Unsplash License)</figcaption>
+        </figure>
+        
+        <figure>
+            <img src="image3.jpg" alt="Nature" title="Mountains" width="300" height="500" class="image" style="filter: brightness(80%);">
+            <figcaption>Image by Samuel Ferrara on <a href="https://unsplash.com/@samferrara">Unsplash</a> (Unsplash License)</figcaption>
+        </figure>
+    </div>
+</body>
+</html>
