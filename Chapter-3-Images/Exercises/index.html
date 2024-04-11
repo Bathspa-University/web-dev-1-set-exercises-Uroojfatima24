@@ -5,18 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Gallery</title>
     <style> /*-- Defines the CSS styles for the webpage. */
-        .image {
-            width: 100%;
-            max-width: 300px;
-            margin-bottom: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease-in-out;
-        }
+     
+    .image {
+    width: 300px;
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    }
         
-        .image:hover {
+    .image:hover {
             transform: scale(1.1);
-        }
+    }
+
+    .gallery {
+    display: flex;
+    justify-content: center;
+    }
+
     </style>
 </head>
 <body>
