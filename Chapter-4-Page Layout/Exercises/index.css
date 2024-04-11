@@ -1,0 +1,84 @@
+ nav ul {
+    list-style-type:none;
+    padding: 20px;
+ }
+ 
+ nav ul li {
+    display:inline;
+    margin-right:10px;
+    padding: 0 15px;
+ }
+ 
+ nav ul li a {
+    text-decoration:none;
+    color: white;
+    font-size: 1.5em;
+ }
+
+ .center-text {
+    text-align: center;
+    font-family: 'Tahoma', sans-serif;
+    font-weight: 700; 
+    color: #FFFFFF;
+    background-color: #17072b;
+ }
+ 
+ header h1 {
+    font-size: 3.0em;
+    text-decoration: underline;
+    padding: 10px;
+ }
+
+ .Welcome {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    padding-left: 40px;
+    flex: 4;
+ }
+ .line-up {
+    height: 650px;
+    background-color:#172c67e0;
+    color:#FFFFFF;
+    flex: 2;
+ }
+ .line-up ul li {
+    padding: 10px 0;
+ }
+ .Welcome p {
+    font-size: 20px; 
+    text-align: left;
+    padding-left: 20px;
+ }
+ .Welcome h2 {
+    font-size: 30px;
+    text-decoration: underline;
+    text-indent: 20px;
+ }
+ 
+ .line-up ul {
+    font-size: 20px; 
+ }
+ .line-up h2 {
+    font-size: 30px;
+    text-decoration: underline;
+    text-indent: 20px;
+ }
+
+ .line-up-image {
+    width: 200px; 
+    height: 200px; 
+    padding-left: 20px;
+}
+
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+   padding: 15px;
+   font-size: 20px;
+   background-color:#8c16e6; 
+   color:#FFFFFF;
+}
