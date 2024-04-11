@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Color Guessing Game</title>
+    <link rel="stylesheet" href="rgbgame.css">
+</head>
+<body>
+    <div class="container"> <!-- Creates a container for all the elements. -->
+        <h1>RGB Color Guessing Game</h1> <!-- Displays the title of the game. -->
+        <div id="colorDisplay"></div> <!-- This is where the RGB color to be guessed will be displayed. -->
+        <div id="rgbValue"></div> <!-- This will display the RGB value of the color to be guessed. -->
+        <div id="options"></div> <!-- This is where the color options for guessing will be displayed. -->
+        <div id="message"></div> <!-- This is where messages like "Correct!" or "Try Again" will be displayed. -->
+        <p>Lives: <span id="lives">3</span></p> <!-- Displays the number of lives remaining. -->
+        <button id="resetButton">New Game</button> <!-- Button to start a new game. -->
+    </div>
+
+    <script src="rgbgame.js"></script>
+</body>
+</html>
